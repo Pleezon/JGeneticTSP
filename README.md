@@ -12,7 +12,8 @@ Somewhat highly optimized Genetic-Algorithm for solving Travelling Salesman Prob
 		};
 		TSP tsp = new TSP(nodes); // create TSP instance
 		for (int i=0; i<100; i++){
-			tsp.nextGeneration(); // repeat (this is normally done in combination with a check wether or not the current best is in a wanted range)
+			tsp.nextGeneration(); 
+// repeat (this is normally done in combination with a check wether or not the current best is in a wanted range)
 		}
 		TSPNode[] finished = tsp.getBest();  // get result
 		double cost = tsp.getCostOfBest(); // get cost of TSP path
