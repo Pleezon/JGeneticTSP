@@ -1,5 +1,5 @@
 # JGeneticTSP
-Somewhat highly optimized Genetic-Algorithm for solving Travelling Salesman Problems. 
+Somewhat optimized Genetic-Algorithm for solving Travelling Salesman Problems. 
 
 ## Usage
 ```java
